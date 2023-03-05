@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="lb_cs.css">
+    <script src="lb_js.js"></script>
+</head>
+<body>
+            <header class="header">
+        <p class="heading"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WELCOME TO CENTRAL LIBRARY</p>
+        <div class="left">
+         <img src="logo.png" alt="">
+        </div>
+        <div class="mid">
+          <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Library Rules</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="http://127.0.0.1:5501/web/library/login.html">Login/Register</a></li>
+          </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Query</button>
+        </div>
+    </header>
+    <div class="body_pic">
+        <img src="background.jpg">
+    </div>
+
+
+    <div class="add_book">
+        <h2 style="text-align: center;">ADD BOOK !</h2>
+        <form>
+            <div class="form-group">
+                Name :
+                    <input type="text" placeholder="Book Name">
+            </div>
+            <div class="form-group">
+                Author :
+                    <input type="text" placeholder="Author">
+            </div>
+            <div class="form-group">
+            Date Published :
+                    <input type="date">
+            </div>
+            
+            <div class="form-group">
+                Fictional <input type="radio" name="ID" id="one" checked>
+                Non-Fictional<input type="radio" name="ID" id="one">
+            </div>
+            <div class="form-group">
+                Enter Genre: <input type="text" name="" id="">
+            </div>
+            <div class="fin">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="SUBMIT ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="RESET NOW">
+                    <!-- <button type="submit" class="btn btn-primary">Add Book</button> -->
+            </div>
+        </form>
+    </div>
+    <div class="tt">
+        SEARCH A BOOK!
+    </div>
+    <div class="search">
+        <form>
+            <div class="form-group">
+                Enter Name of Author:
+                    <input type="text" placeholder="Book Name">
+            </div>
+            <div class="form-group">
+                Enter ISBN :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" placeholder="Author">
+            </div>
+            <div class="form-group">
+            Date Published :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="date">
+            </div>
+            
+            <div class="form-group">
+                Fictional <input type="radio" name="ID" id="one" checked>
+                Non-Fictional<input type="radio" name="ID" id="one">
+            </div>
+            <div class="form-group">
+                <table class="table_table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Fictional Genres</th>
+                            <th scope="col">Non-Fictional Genres</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tablebody">
+                        <tr> 
+                            <td>Action</td>
+                            <td>Art</td>
+                        </tr>
+                        <tr> 
+                            <td>Fantasy</td>
+                            <td>History</td>
+                        </tr>
+                        <tr> 
+                            <td>Horror</td>
+                            <td>Journal</td>
+                        </tr>
+                        <tr> 
+                            <td>Mystery</td>
+                            <td>Math</td>
+                        </tr>
+                        <tr> 
+                            <td>Poetry</td>
+                            <td>Prayer</td>
+                        </tr>
+                        <tr> 
+                            <td>Science Fiction</td>
+                            <td>True Crime</td>
+                        </tr>
+                        <tr> 
+                            <td>Suspense</td>
+                            <td>Travel</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="fin">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Search" value="Search ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <!-- <button type="submit" class="btn btn-primary">Add Book</button> -->
+            </div>
+        </form>    
+    </div>
+    <div class="bottom">
+        <form>
+             
+        </form>
+    </div>
+</body>
+</html>
